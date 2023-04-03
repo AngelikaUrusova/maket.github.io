@@ -1,0 +1,116 @@
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./table.css) screen;
+@import url(./table_2.css) screen;
+@import url(./table_3.css) screen;
+@import url(./table_4.css) screen;
+
+.content {
+    padding-left: calc(50% - 911px / 2);
+    padding-right: calc(50% - 911px / 2);
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.title {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin-top: 33px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto_welcome {
+    width: 523px;
+    height: 316px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_info {
+    font-family: 'Roboto', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 187px;
+    padding-left: calc(50% - 911px / 2);
+    padding-right: calc(50% - 911px / 2);
+}
+
+.content_section {
+    width: 634px;
+}
+
+.content_article {
+    margin-top: 15px;
+}
+
+.subtitle {
+    margin: 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.about_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.word {
+    color: #CF5510;
+    font-style: italic;
+}
+
+.words {
+    font-weight: 900;
+}
+
+.heading {
+    position: relative;
+    width: 129px;
+    font-family: 'Lobster', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #646464;
+    display: flex;
+    top: 9px;
+    left: 127px;
+}
+
+.quotes {
+    font-size: 64px;
+}
+
+.quotes-left {
+    position: absolute;
+    left: -33px;
+    top: 7px;
+}
+
+.quotes-right {
+    position: absolute;
+    top: 50px;
+    right: -22px;
+}
+
+
+
+
