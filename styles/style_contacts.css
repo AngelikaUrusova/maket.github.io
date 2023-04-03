@@ -1,0 +1,61 @@
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./table.css);
+
+
+.find {
+    /* display: flex;
+    flex-direction: column; */
+    padding-left: calc(50% - 1268px / 2);
+    padding-right: calc(50% - 1268px / 2);
+}
+
+.subtitle_contacts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 33px;
+    margin-bottom: 25px;
+    margin-left: 216px;
+    color: #000000;
+}
+
+.map {
+    width: 1268px;
+    height: 370px;
+    border: 0;
+}
+
+.our__contacts {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 216px;
+}
+
+.address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    width: 439px;
+    height: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-left: 216px;
+}
+
+.number {
+    color: #000000;
+}
+
