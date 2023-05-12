@@ -4,8 +4,6 @@
 
 
 .find {
-    /* display: flex;
-    flex-direction: column; */
     padding-left: calc(50% - 1268px / 2);
     padding-right: calc(50% - 1268px / 2);
 }

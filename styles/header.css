@@ -11,6 +11,85 @@
     flex-grow: 1;
 }
 
+.header__burger {
+    background: #213B7E;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: calc(50% - 1268px / 2);
+    padding-right: calc(50% - 1268px / 2);
+    font-family: 'Roboto', Arial, sans-serif;
+    position: relative; 
+}
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    cursor: pointer;
+    padding-top: 13px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.burger__item {
+    width: 47px;
+    height: 7px;
+    background-color: #EA5D21;
+}
+
+.burger__menu {
+    position: absolute;
+    top: 63px;
+    z-index: 1000;
+    width: 330px;
+    background-color: #213B7E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+    /* left: -700px; */
+}
+
+.burger__close {
+	position: absolute;
+	top: -45px;
+	right: 4px;
+	width: 45px;
+	height: 45px;
+	/* opacity: 0.5; */
+	cursor: pointer;
+    transition: opacity ease 0.3s;
+}
+
+.burger__close:hover {
+    opacity: 1;
+}
+
+.burger__close::before,
+.burger__close::after {
+	content: '';
+	position: absolute;
+	top: 10px;
+	display: block;
+	width: 41px;
+	height: 7px;
+	background-color: #EA5D21;
+}
+
+.burger__close::before {
+	transform: rotate(45deg);
+}
+
+.burger__close::after {
+	transform: rotate(-45deg);
+}
+
+.menu_show {
+    left: 10px;
+}
+
 .header {
     background: #213B7E;
     display: flex;
@@ -73,7 +152,7 @@
     background: #EA5D21;
     text-decoration: none;
     margin-right: 16px;
-
+    cursor: pointer;
 }
 
 .enter:hover {
@@ -81,21 +160,26 @@
     text-transform: uppercase;
 }
 
-.visible {
-    display: none;
-}
-
-
-.block__login {
-    position: absolute;
+.popup__bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100vh;
-    width: 100vw;
-    background-color: #808080;
-    /* opacity: 0.4; */
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: 0.5s all;
+    pointer-events: none; 
+    z-index: 500;
 }
 
-.popup_login_visible {
+.popup__bg.active {
     opacity: 1;
+    pointer-events: all;
+    transition: 0.5s all;
+} 
+
+.popup {
     width: 500px;
     height: 418px;
     background: #FFFFFF;
@@ -107,10 +191,18 @@
     margin-left: calc(50% - 500px / 2);
     margin-right: calc(50% - 500px / 2);
     color: #808080;
-    position: sticky;
+    position: absolute;
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.5s all;
 }
 
-.closeModal: {
+.popup.active {
+    pointer-events: all;
+    transition: 0.5s all;
+}
+
+.close_popup {
 	position: absolute;
 	top: 30px;
 	right: 20px;
@@ -118,15 +210,15 @@
 	height: 24px;
 	opacity: 0.2;
 	cursor: pointer;
-  transition: opacity ease 0.5s;
+    transition: opacity ease 0.5s;
 }
 
-.closeModal:hover {
+.close_popup:hover {
     opacity: 1;
 }
 
-.closeModal::before,
-.closeModal::after {
+.close_popup::before,
+.close_popup::after {
 	content: '';
 	position: absolute;
 	top: 10px;
@@ -136,11 +228,11 @@
 	background: #000;
 }
 
-.closeModal::before {
+.close_popup::before {
 	transform: rotate(45deg);
 }
 
-.closeModal::after {
+.close_popup::after {
 	transform: rotate(-45deg);
 }
 
@@ -153,8 +245,13 @@
     color: black;
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .login {
-    margin: 0;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
@@ -163,6 +260,9 @@
     height: 55px;
     background: #FFFFFF;
     border: 1px solid #808080;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
 }
 
 .password {
@@ -176,8 +276,9 @@
     height: 55px;
     background: #FFFFFF;
     border: 1px solid #808080;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+
 }
 
-.block__enter {
-    margin-bottom: 56px;
-}

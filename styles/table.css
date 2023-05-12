@@ -1,0 +1,334 @@
+@media (max-width: 1024px) {
+
+    .header {
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .menu {
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .menu_link {
+        font-size: 18px;
+        padding: 20px 12px;
+    }
+
+    .enter {
+        margin: 0;
+    }
+
+    .content {
+        padding-left: calc(50% - 820PX / 2);
+        padding-right: calc(50% - 820PX / 2);
+    }
+
+    .foto_welcome {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .content_info {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .content_section {
+        max-width: 65%;
+    }
+
+    .heading {
+        top: 9px;
+        left: -70px;
+    }
+
+    .content-students {
+        margin-left: 90px;
+    }
+
+    .about {
+        padding-left: calc(50% - 820px / 2);
+        padding-right: calc(50% - 820px / 2);
+    }
+
+    .video_1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .find {
+        padding-left: calc(50% - 884px / 2);
+        padding-right: calc(50% - 884px / 2);
+    }
+
+    .subtitle_contacts {
+        margin-left: 85px;
+    }
+
+    .map {
+        width: 100%;
+        height: auto;
+    }
+
+    .our__contacts {
+        margin-left: 85px;
+    }
+
+    .address {
+        margin-left: 85px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .header {
+        padding-left: 16px;
+        padding-right: 16px;
+        flex-direction: column;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+        margin-bottom: 6px;
+    }
+
+    .content {
+        padding-left: calc(50% - 596px / 2);
+        padding-right: calc(50% - 596px / 2);
+    }
+
+    .content_section {
+        max-width: 100%;
+    }
+
+    .content_info {
+        justify-content: center;
+    }
+
+    .heading {
+        left: 0;
+    }
+
+    .content-students {
+        justify-content: center;
+    }
+
+    .students {
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .about {
+        padding-left: calc(50% - 596px / 2);
+        padding-right: calc(50% - 596px / 2);
+
+    }
+
+    .subtitle_about {
+        font-size: 27px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 8px;
+    }
+
+    .video_about {
+        font-size: 20px;
+    }
+
+    .video_1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .find {
+        width: 100%;
+        padding-left: calc(50% - 596px / 2);
+        padding-right: calc(50% - 596px / 2);
+    }
+
+    .subtitle_contacts {
+        margin-left: 0px;
+        font-size: 25px;
+    }
+
+    .our__contacts {
+        margin-left: 0px;
+        font-size: 20px;
+    }
+
+    .address {
+        margin-left: 0px;
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width: 425px) {
+
+    .header {
+        padding-left: 8px;
+        padding-right: 8px;
+        flex-direction: column;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+        margin-bottom: 6px;
+    }
+
+    .menu_link {
+        font-size: 15px;
+        padding: 13px 19px;
+    }
+
+    .enter {
+        font-size: 15px;
+        width: 117px;
+        height: 38px;
+        margin-top: 7px;
+    }
+
+    .content {
+        padding-left: calc(50% - 285px / 2);
+        padding-right: calc(50% - 285px / 2);
+    }
+
+    .title {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .foto_welcome {
+        padding-left: calc(50% - 285px / 2);
+        padding-right: calc(50% - 285px / 2);
+    }
+
+    .subtitle {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .heading {
+        left: 74px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .quotes {
+        font-size: 55px;
+    }
+
+    .quotes_right {
+        top: 41px;
+        right: 4px;
+    }
+
+    .content-students {
+        padding-left: calc(50% - 283px / 2);
+        padding-right: calc(50% - 283px / 2);
+    }
+
+    .foto {
+        width: 85%;
+        height: auto;
+    }
+
+    .find {
+        padding-left: calc(50% - 283px / 2);
+        padding-right: calc(50% - 283px / 2);
+    }
+
+    .subtitle_about {
+        margin-left: 0px;
+        padding-left: calc(50% - 283px / 2);
+        padding-right: calc(50% - 283px / 2);
+    }
+
+    .about {
+        margin-left: 0px;
+    }
+
+    .find {
+        padding-left: calc(50% - 269px / 2);
+        padding-right: calc(50% - 269PX / 2);
+    }
+
+    .subtitle_contacts {
+        margin-left: 0px;
+        font-size: 20px;
+    }
+
+    .our__contacts {
+        margin-left: 0px;
+    }
+
+    .address {
+        margin-left: 0px;
+        height: 100%;
+        width: auto;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .title {
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    .content {
+        padding-left: calc(50% - 164px / 2);
+        padding-right: calc(50% - 164px / 2);
+    }
+
+    .about_text {
+        font-size: 13px;
+
+    }
+
+    .subtitle_students {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .content-students {
+        margin-left: 0;
+    }
+
+    .student_name {
+        font-size: 15px;
+    }
+
+    .about {
+        padding-left: calc(50% - 164px / 2);
+        padding-right: calc(50% - 164px / 2);
+    }
+
+    .subtitle_about {
+        font-size: 20px;
+    }
+
+    .footer_text {
+        font-size: 13px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,60 @@
+@import url(./header.css);
+@import url(./footer.css);
+
+
+.page {
+max-width: 750px;
+margin: 0 auto ;
+height: 1000px;
+}
+
+.info {
+    display: flex;
+    padding-top: 15px;
+}
+
+.info_image {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.info_text {
+    margin-left: 35px;
+}
+.info_frontend{
+color: #5e5e5e;
+font-style: italic;
+font-weight: 700;
+opacity: 0.7;
+}
+
+.info_link {
+    color: black;
+    text-decoration: none;
+    transition: 1s ease-in-out;
+}
+
+.info_link:hover {
+text-decoration: underline;
+opacity: .7;
+}
+
+.card {
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    background: lightcoral;
+    border-radius: 12px;
+    /* добавить тень */
+}
+
+.list {
+padding: 0;
+list-style-type: none;
+}
+
+.card_bg_yellow {
+    background: lightseagreen
+}

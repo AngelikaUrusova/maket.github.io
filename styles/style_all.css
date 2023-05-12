@@ -1,0 +1,801 @@
+@import url(./header.css);
+@import url(./footer.css);
+
+/* главная  */
+
+.content {
+    padding-left: calc(50% - 911px / 2);
+    padding-right: calc(50% - 911px / 2);
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.title {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin-top: 33px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto_welcome {
+    width: 523px;
+    height: 316px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_info {
+    font-family: 'Roboto', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 187px;
+    padding-left: calc(50% - 911px / 2);
+    padding-right: calc(50% - 911px / 2);
+}
+
+.content_section {
+    width: 634px;
+}
+
+.content_article {
+    margin-top: 15px;
+}
+
+.subtitle {
+    margin: 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.about_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.word {
+    color: #CF5510;
+    font-style: italic;
+}
+
+.words {
+    font-weight: 900;
+}
+
+.heading {
+    position: relative;
+    width: 129px;
+    font-family: 'Lobster', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #646464;
+    display: flex;
+    top: 9px;
+    left: 127px;
+}
+
+.quotes {
+    font-size: 64px;
+}
+
+.quotes-left {
+    position: absolute;
+    left: -33px;
+    top: 7px;
+}
+
+.quotes-right {
+    position: absolute;
+    top: 50px;
+    right: -23px;
+}
+
+/* студенты */
+
+.content-students {
+    padding-left: calc(50% - 1202px /2);
+    padding-right: calc(50% - 1202px /2);
+}
+
+.subtitle_students {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 37px;
+}
+
+.students {
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.student {
+    width: 200px;
+    position: relative;
+}
+
+.foto {
+    width: 200px;
+    height: 270px;
+}
+
+.student_name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    margin-top: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.student_new {
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #3AA828;
+    border-radius: 20px;
+    width: 94px;
+    height: 24px;
+    top: -26px;
+    right: -13px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* личная */
+
+.page {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 60px; 
+}
+
+.info_image {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.info_text {
+    margin-left: 35px;
+}
+
+.info_frontend {
+    color: #5e5e5e;
+    font-style: italic;
+    font-weight: 700;
+    opacity: 0.7;
+}
+
+.info_link {
+    color: black;
+    text-decoration: none;
+    transition: 1s ease-in-out;
+}
+
+.info_link:hover {
+    text-decoration: underline;
+    opacity: .7;
+}
+
+.card__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.card {
+    width: 750px;
+    margin-top: 20px;
+    padding: 15px;
+    background: #eb8458;
+    border-radius: 12px;
+}
+
+.list {
+    padding: 0;
+    list-style-type: none;
+}
+
+/* о курсе */
+
+.about {
+    padding-left: calc(50% - 820px / 2);
+    padding-right: calc(50% - 820px / 2);
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitle_about {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    margin-top: 33px;
+    margin-bottom: 25px;
+}
+
+.video_about {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+    margin: 0;
+}
+
+.video_1 {
+    border: #EA5D21;
+    border: 2px;
+    width: 820px;
+    height: 549px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+/* контакты */
+
+.find {
+    padding-left: calc(50% - 1268px / 2);
+    padding-right: calc(50% - 1268px / 2);
+}
+
+.subtitle_contacts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 33px;
+    margin-bottom: 25px;
+    margin-left: 216px;
+    color: #000000;
+}
+
+.map {
+    width: 1268px;
+    height: 370px;
+    border: 0;
+}
+
+.our__contacts {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 216px;
+}
+
+.address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    width: 439px;
+    height: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-left: 216px;
+}
+
+.number {
+    color: #000000;
+}
+
+
+/* экраны */
+
+@media (max-width: 1024px) {
+
+    .header {
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    /* .burger {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        cursor: pointer;
+    }
+    
+    .burger__item {
+        width: 40px;
+        height: 5px;
+        background-color: #000;
+    } */
+
+    .menu {
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .menu_link {
+        font-size: 18px;
+        padding: 20px 12px;
+    }
+
+    .enter {
+        margin: 0;
+    }
+
+    .content {
+        padding-left: calc(50% - 820PX / 2);
+        padding-right: calc(50% - 820PX / 2);
+    }
+
+    .foto_welcome {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .content_info {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .content_section {
+        max-width: 65%;
+    }
+
+    .heading {
+        top: 9px;
+        left: -70px;
+    }
+
+    .content-students {
+        margin-left: 90px;
+    }
+
+    .about {
+        padding-left: calc(50% - 820px / 2);
+        padding-right: calc(50% - 820px / 2);
+    }
+
+    .video_1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .find {
+        padding-left: calc(50% - 884px / 2);
+        padding-right: calc(50% - 884px / 2);
+    }
+
+    .subtitle_contacts {
+        margin-left: 85px;
+    }
+
+    .map {
+        width: 100%;
+        height: auto;
+    }
+
+    .our__contacts {
+        margin-left: 85px;
+    }
+
+    .address {
+        margin-left: 85px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .header {
+        display: none;
+        padding-left: 16px;
+        padding-right: 16px;
+        flex-direction: column;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .header__burger {
+        display: block;
+    }
+
+    .burger__menu {
+        width: 100%;
+        left: -700px;
+    }
+
+    .menu_show {
+        left: 0;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+        margin-bottom: 6px;
+    }
+
+    .popup {
+        margin-left: calc(50% - 277px / 2);
+        margin-right: calc(50% - 277px / 2);
+        width: 65%;
+        height: auto;
+    }
+
+    .login {
+        width: 100%;
+        height: auto;
+        font-size: 17px;
+    }
+
+    .enter_on {
+        font-size: 21px;
+    }
+
+    .password {
+        width: 100%;
+        height: auto; 
+        font-size: 17px;
+        margin-top: 27px;
+        margin-bottom: 15px;
+    }
+
+    .enter_popup {
+        margin-bottom: 25px;
+    }
+
+    .content {
+        padding-left: calc(50% - 596px / 2);
+        padding-right: calc(50% - 596px / 2);
+    }
+
+    .content_section {
+        max-width: 100%;
+    }
+
+    .content_info {
+        justify-content: center;
+    }
+
+    .heading {
+        left: 0;
+    }
+
+    .content-students {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .students {
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .page {
+        padding-left: calc(50% - 596px / 2);
+        padding-right: calc(50% - 596px / 2);
+    }
+
+    .info {
+        justify-content: center;
+    }
+
+    .info_image {
+        width: 80%;
+        height: auto;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .about {
+        padding-left: calc(50% - 596px / 2);
+        padding-right: calc(50% - 596px / 2);
+    }
+
+    .subtitle_about {
+        font-size: 27px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 8px;
+    }
+
+    .video_about {
+        font-size: 20px;
+    }
+
+    .video_1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .find {
+        width: 100%;
+        padding-left: calc(50% - 596px / 2);
+        padding-right: calc(50% - 596px / 2);
+    }
+
+    .subtitle_contacts {
+        margin-left: 0px;
+        font-size: 25px;
+    }
+
+    .our__contacts {
+        margin-left: 0px;
+        font-size: 20px;
+    }
+
+    .address {
+        margin-left: 0px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .header {
+        padding-left: 8px;
+        padding-right: 8px;
+        flex-direction: column;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+        margin-bottom: 6px;
+    }
+
+    .menu_link {
+        font-size: 15px;
+        padding: 13px 19px;
+    }
+
+    .enter {
+        font-size: 15px;
+        width: 117px;
+        height: 38px;
+        margin-top: 7px;
+    }
+
+    .popup {
+        margin-left: calc(50% - 277px / 2);
+        margin-right: calc(50% - 277px / 2);
+        width: 65%;
+        height: auto;
+    }
+
+    .login {
+        width: 100%;
+        height: auto;
+        font-size: 17px;
+    }
+
+    .enter_on {
+        font-size: 21px;
+    }
+
+    .password {
+        width: 100%;
+        height: auto; 
+        font-size: 17px;
+        margin-top: 27px;
+        margin-bottom: 15px;
+    }
+
+    .enter_popup {
+        margin-bottom: 25px;
+    }
+
+    .content {
+        padding-left: calc(50% - 285px / 2);
+        padding-right: calc(50% - 285px / 2);
+    }
+
+    .title {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .foto_welcome {
+        padding-left: calc(50% - 285px / 2);
+        padding-right: calc(50% - 285px / 2);
+    }
+
+    .subtitle {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .heading {
+        left: 4px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .quotes {
+        font-size: 55px;
+    }
+
+    .quotes-right {
+        top: 41px;
+        right: 4px;
+    }
+
+    .content-students {
+        padding-left: calc(50% - 283px / 2);
+        padding-right: calc(50% - 283px / 2);
+        margin-left: 0;
+    }
+
+    .page {
+        padding-left: calc(50% - 283px / 2);
+        padding-right: calc(50% - 283px / 2); 
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .info_image {
+        width: 100%;
+        height: auto;
+    }
+
+    .info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info_title {
+        font-size: 22px;
+    }
+
+    .info_text {
+        margin-left: 0;
+    }
+
+    .find {
+        padding-left: calc(50% - 283px / 2);
+        padding-right: calc(50% - 283px / 2);
+    }
+
+    .subtitle_about {
+        margin-left: 0px;
+        padding-left: calc(50% - 283px / 2);
+        padding-right: calc(50% - 283px / 2);
+    }
+
+    .about {
+        margin-left: 0px;
+    }
+
+    .find {
+        padding-left: calc(50% - 269px / 2);
+        padding-right: calc(50% - 269PX / 2);
+    }
+
+    .subtitle_contacts {
+        margin-left: 0px;
+        font-size: 20px;
+    }
+
+    .our__contacts {
+        margin-left: 0px;
+    }
+
+    .address {
+        margin-left: 0px;
+        height: 100%;
+        width: auto;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .title {
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    .content {
+        padding-left: calc(50% - 164px / 2);
+        padding-right: calc(50% - 164px / 2);
+    }
+
+    .popup {
+        padding-left: calc(50% - 164px / 2);
+        padding-right: calc(50% - 164px / 2);
+    }
+
+    .about_text {
+        font-size: 13px;
+
+    }
+
+    .subtitle_students {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .content-students {
+        margin-left: 0;
+    }
+
+    .student_name {
+        font-size: 15px;
+    }
+
+    .about {
+        padding-left: calc(50% - 164px / 2);
+        padding-right: calc(50% - 164px / 2);
+    }
+
+    .subtitle_about {
+        font-size: 20px;
+    }
+
+    .footer_text {
+        font-size: 13px;
+        text-align: center;
+    }
+}
